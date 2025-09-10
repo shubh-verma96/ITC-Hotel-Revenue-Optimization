@@ -1,16 +1,14 @@
-#ITC Hotels Revenue Optimization (Interactive Dashboard using Power BI)
+# ITC Hotels Revenue Optimization (Interactive Dashboard using Power BI)
 
-##Project Objective
+## Project Objective
 The goal of this project is to analyze ITC Hotels’ revenue, occupancy, booking behavior, and cancellations in order to extract actionable insights that can help optimize financial performance, occupancy trends, and customer satisfaction.
 The project delivers an interactive multi-page Power BI dashboard for real-time decision-making by stakeholders.
 
-##Dataset Used
+## Dataset Used
 
 [View Dataset](https://github.com/shubh-verma96/ITC-Hotel-Revenue-Optimization/blob/main/ITC%20Dataset.zip)
 
-##Key Questions (KPIs)
-
-Key Problem Areas to Address:
+## Key Questions (KPIs)
 
 Page 1: Financial Overview & Revenue Performance
 
@@ -19,7 +17,7 @@ Page 1: Financial Overview & Revenue Performance
 3. How has the revenue grown month-over-month (MoM) and week-over-week (WoW)?
 4. What are the average daily rate (ADR) and revenue per available room (RevPAR)?
 
-##Screenshot
+## Screenshot
 ![Screenshot](https://github.com/shubh-verma96/ITC-Hotel-Revenue-Optimization/blob/main/Screenshot%201%20-%20Financial%20Overview.png)
 
 Page 2: Occupancy & Capacity Analysis
@@ -29,7 +27,7 @@ Page 2: Occupancy & Capacity Analysis
 3. What is the  occupancy growth (MoM and WoW)?
 4. How does occupancy correlate with revenue and RevPAR?
 
-##Screenshot
+## Screenshot
 ![Screenshot](https://github.com/shubh-verma96/ITC-Hotel-Revenue-Optimization/blob/main/Screenshot%202%20-%20Occupancy.png)
 
 Page 3: Room Category Performance & Booking Insights
@@ -39,7 +37,7 @@ Page 3: Room Category Performance & Booking Insights
 3. What is the average length of stay (ALOS) for each hotel and room type?
 4. What is the room revenue trend (including running total and MoM/WoW growth)?
 
-##Screenshot
+## Screenshot
 ![Screenshot](https://github.com/shubh-verma96/ITC-Hotel-Revenue-Optimization/blob/main/Screenshot%203%20-%20Category%20Performance.png)
 
 Page 4: Cancellations & Lost Revenue Analysis
@@ -49,18 +47,14 @@ Page 4: Cancellations & Lost Revenue Analysis
 3. What is the lost revenue due to cancellations?
 4. Are there any patterns in cancellations (e.g., specific room types, time of year)?
 
-##Screenshot
+## Screenshot
 ![Screenshot](https://github.com/shubh-verma96/ITC-Hotel-Revenue-Optimization/blob/main/Screenshot%204%20-%20Lost%20Revenue.png)
 
-##Process
+## Process
 
 1. Data Cleaning & Transformation using Power BI Power Query.
 2. Applied DAX formulas to create calculated columns and measures (e.g., RevPAR, ADR, MoM & WoW Growth).
 3. Designed interactive dashboards with slicers, date filters, and drill-through features.
 4. Incorporated KPI indicators for revenue, occupancy, cancellations, and growth rates.
-5. Used charts & visuals:
-Waterfall Charts → Revenue growth trends
-Ribbon Charts → Room category performance ranking
-Line & Bar Charts → Occupancy and booking insights
-
-Cards & Gauges → KPIs (ADR, RevPAR, Occupancy %)
+5. Used charts & visuals: Waterfall Charts, Ribbon Charts, Line & Bar Charts.
+6. Cards & Gauges → KPIs (ADR, RevPAR, Occupancy %)
